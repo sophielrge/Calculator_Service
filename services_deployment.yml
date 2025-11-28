@@ -18,7 +18,7 @@ spec:
       - name: repo-key
       containers:
       - name: sumserver
-        image: admin/sum
+        image: sophelian/sum
         imagePullPolicy: Always
         ports:
         - containerPort: 80
@@ -59,7 +59,7 @@ spec:
         - name: repo-key
       containers:
       - name: subserver
-        image: admin/sub
+        image: sophelian/sub
         imagePullPolicy: Always
         ports:
         - containerPort: 80
@@ -100,7 +100,7 @@ spec:
         - name: repo-key
       containers:
       - name: mulserver
-        image: admin/mul
+        image: sophelian/mul
         imagePullPolicy: Always
         ports:
         - containerPort: 80
@@ -141,7 +141,7 @@ spec:
         - name: repo-key
       containers:
       - name: divserver
-        image: admin/div
+        image: sophelian/div
         imagePullPolicy: Always
         ports:
         - containerPort: 80
@@ -182,7 +182,7 @@ spec:
         - name: repo-key
       containers:
       - name: calculatorserver
-        image: admin/calculator
+        image: sophelian/calculator
         imagePullPolicy: Always
         ports:
         - containerPort: 80
